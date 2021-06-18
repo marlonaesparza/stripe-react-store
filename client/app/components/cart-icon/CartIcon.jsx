@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import CartIconPng from '../../assets/carticon.png';
+import CartIconPng from '../../../assets/carticon.png';
 
 
 const CartIconContainer = styled.div`

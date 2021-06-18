@@ -20,7 +20,7 @@ const LogoContainer = styled.div`
 const NavOptionsList = styled.ul`
   display: block;
   margin: 0;
-  list-styled-type: none;
+  list-style-type: none;
 `;
 
 const NavOption = styled.li`
