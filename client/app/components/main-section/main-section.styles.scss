@@ -6,6 +6,10 @@
     font-size: 1.1rem;
   }
 
+  img {
+    width: 300px;
+  }
+
   .ms-m-descrition {
     p {
       font-size: 0.933rem;
@@ -17,11 +21,10 @@
 @media(min-width: 1024px) {
   .main-section-middle {
     display: flex;
-    justify-content: space-between;
 
-    .ms-image {
-      max-width: 545px;
-      flex: 1 0 545px;
+    .ms-m-image {
+      max-width: 300px;
+      flex: 1 0 300px;
     }
 
     .ms-m-description {
