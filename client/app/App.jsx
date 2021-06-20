@@ -1,19 +1,15 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
-import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
-import MainSection from './components/main-section/MainSection';
-import FeaturedCollection from './components/featured-collection/FeaturedCollection';
-import Footer from './components/footer/Footer.jsx';
+import Home from './pages/Home';
+
 
 const App = (props) => {
   return (
     <div className='app-container'>
-      <Header />
-      <Hero />
-      <MainSection />
-      <FeaturedCollection />
-      <Footer />
+      <Switch>
+        <Route exact path='/' component={Home} />
+      </Switch>
     </div>
   );
 };
